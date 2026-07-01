@@ -24,6 +24,10 @@
 
   html { scroll-behavior: smooth; }
 
+  /* Hide scrollbar — Apple style */
+  body::-webkit-scrollbar { display: none; }
+  body { -ms-overflow-style: none; scrollbar-width: none; }
+
   body {
     font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", "PingFang SC", "Noto Sans SC", sans-serif;
     background: var(--bg-white);
